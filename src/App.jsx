@@ -1,4 +1,5 @@
 import "./App.css";
+import DebounceInput from "./components/DebounceInput";
 import PostList from "./components/PostList";
 import UseWindowHook from "./hooks/UseWindowHook";
 // import UseImperativeHook from "./components/UseImperativeHook";
@@ -27,7 +28,8 @@ function App() {
       {/* <UseImperativeHook /> */}
       {/* <p>Width: {width}</p>
       <p>Height: {height}</p> */}
-      <PostList />
+      {/* <PostList /> */}
+      <DebounceInput />
     </>
   );
 }
