@@ -1,4 +1,5 @@
 import "./App.css";
+import PostList from "./components/PostList";
 import UseWindowHook from "./hooks/UseWindowHook";
 // import UseImperativeHook from "./components/UseImperativeHook";
 // import UseMemoAndCallBackHook from "./components/UseMemoAndCallBackHook";
@@ -11,7 +12,7 @@ import UseWindowHook from "./hooks/UseWindowHook";
 // import UseReducerHook from "./components/UseReducerHook";
 
 function App() {
-  const {width,height} = UseWindowHook();
+  // const {width,height} = UseWindowHook();
   return (
     <>
       {/* <Mapfilterreduce /> */}
@@ -24,8 +25,9 @@ function App() {
       {/* <UseReducerHook /> */}
       {/* <UseMemoAndCallBackHook /> */}
       {/* <UseImperativeHook /> */}
-      <p>Width: {width}</p>
-      <p>Height: {height}</p>
+      {/* <p>Width: {width}</p>
+      <p>Height: {height}</p> */}
+      <PostList />
     </>
   );
 }
